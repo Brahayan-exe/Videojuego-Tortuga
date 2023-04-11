@@ -1,0 +1,45 @@
+body {
+    width: 1010px;
+    height: 710px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    border: solid 10px rgb(0, 174, 255);
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+#personaje {
+    position: relative;
+    z-index: 1;
+    /*transition: 0.01s;*/
+}
+#rocaUno{
+    top: 350px;
+    position: absolute;
+}
+#rocaUno:nth-child(2){
+     top:250px;
+    position: absolute;
+}
+
+#rocaDos{
+    top: 300px;
+    position: absolute;
+}
+#rocaTres{
+    top: 80px;
+    position: absolute;
+}
+#rocaCuatro{
+    top: 400px;
+    position: absolute;
+}
+#rocaCinco{
+    top: 600px;
+    position: absolute;
+}
+
+img {
+    padding-right: 180px;
+}
